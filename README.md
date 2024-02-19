@@ -1,5 +1,11 @@
 # Aplikasi Sistem Informasi Bengkel
-Program ini dibuat untuk memenuhi tugas capstone project di semester 4, dan dibuat dengan menggunakan bahasa pemrograman PHP Codeigniter 3.1.11 dan MySQL.
+Solusi terintegrasi yang dirancang untuk membantu pengelolaan dan pengelolaan operasional bengkel secara efisien. Dengan fitur-fitur yang komprehensif dan intuitif, aplikasi ini memungkinkan bengkel untuk mengelola inventaris, pelanggan, layanan, dan keuangan mereka dengan lebih mudah dan efektif. Pengguna dapat dengan cepat mengakses informasi tentang pekerjaan yang sedang dilakukan, status perbaikan, dan histori layanan pelanggan.
+
+## Preview
+|----------|----------|----------|
+| Baris 1, Kolom 1 | Baris 1, Kolom 2 | Baris 1, Kolom 3 |
+| Baris 2, Kolom 1 | Baris 2, Kolom 2 | Baris 2, Kolom 3 |
+| Baris 3, Kolom 1 | Baris 3, Kolom 2 | Baris 3, Kolom 3 |
 
 ## > Fitur
 - [x] Login
@@ -7,6 +13,9 @@ Program ini dibuat untuk memenuhi tugas capstone project di semester 4, dan dibu
 - [x] Dashboard
 - [x] Data Pelanggan
 - [x] Data Produk
+- [x] Data Suku Cadang
+- [x] Struk
+- [x] Eksport PDF
 - [x] Dan Lainnya..
 
 ## > Instalasi
