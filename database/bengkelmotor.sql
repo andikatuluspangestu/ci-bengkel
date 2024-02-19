@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jun 09, 2023 at 12:48 PM
--- Server version: 10.4.27-MariaDB
--- PHP Version: 8.1.12
+-- Generation Time: Feb 19, 2024 at 04:18 AM
+-- Server version: 10.4.28-MariaDB
+-- PHP Version: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `bengkelmotor`
+-- Database: `db_bengkel`
 --
 
 -- --------------------------------------------------------
@@ -43,7 +43,7 @@ CREATE TABLE `booking` (
 --
 
 INSERT INTO `booking` (`id_booking`, `tgl_booking`, `no_antrian`, `total_biaya`, `id_sparepart`, `id_customer`, `jenis_service`, `nama_customer`) VALUES
-(45, '2023-06-09', 1, 57000, 2, NULL, 'Service 1', 'Fina Aulan Ni\'mah');
+(45, '2023-06-09', 1, 57000, 2, NULL, 'Service 1', 'Fina');
 
 -- --------------------------------------------------------
 

@@ -1,4 +1,4 @@
-<?php include 'config/header.php'; ?>
+<?php include 'config/header.php';?>
 
 <head>
   <style>
@@ -10,16 +10,12 @@
       padding: 20px;
     }
   </style>
-
 </head>
 
 <div class="container-fluid">
   <div class="row row-offcanvas row-offcanvas-left">
-
-    <?php include 'config/menu.php'; ?>
-
+    <?php include 'config/menu.php';?>
     <div class="col-xs-12 col-sm-9 content">
-
       <div class="panel panel-default" style="height: 100vh; min-height: 100%;">
         <div class="panel-body mt-5">
           <div class="content-row">
@@ -27,7 +23,7 @@
             <div class="row">
               <div class="col-md-12">
                 <!-- Jika judul == dashboard -->
-                <?php if ($judul == "Dashboard") : ?>
+                <?php if ($judul == "Dashboard"): ?>
                   <div class="row">
                     <!-- Card Jumlah Booking -->
                     <div class="col-md-4">
@@ -59,9 +55,9 @@
                       </div>
                     </div>
                   </div>
-                <?php else : ?>
-                  <?php include $konten . '.php'; ?>
-                <?php endif; ?>
+                <?php else: ?>
+                  <?php include $konten . '.php';?>
+                <?php endif;?>
 
               </div>
             </div>
@@ -71,9 +67,7 @@
     </div>
   </div>
 </div>
-<!--footer-->
-<?php //include 'config/footer.php';
-?>
+
 <script src="assets/bootstrap-datepicker.js"></script>
 
 <script type="text/javascript">
